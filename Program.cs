@@ -4,9 +4,9 @@ using System.Collections.Generic;
 using System.Linq;
 
 
-class Program
+public class Program
 {
-    static void Main(string[] args)
+    public static void Main(string[] args)
     {
         //Ejemplo de entrada
         string[] palabras = {"microsoft", "azure", "developer", "azure", "microsoft", "teams", "developer", "azure"};
@@ -20,7 +20,7 @@ class Program
     }
 
     //Función que devuelve las k palabras más frecuentes
-    static List<string> KPalabrasMasFrecuentes(string[] palabras, int k)
+    public static List<string> KPalabrasMasFrecuentes(string[] palabras, int k)
     {
         // Función para contar la frecuencia de cada palabra
         var frecuencia = palabras
